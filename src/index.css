@@ -130,7 +130,7 @@ main {
 			@apply bg-yellow h-[90vh] w-auto md:mt-36 mt-20 -translate-x-5;
 
 			img {
-				@apply size-full object-cover [object-position:80%_center] hover:scale-x-[0.97] hover:scale-x-[0.98] transition duration-700 ease-in-out;
+				@apply size-full object-cover [object-position:80%_center] hover:scale-x-[0.97] hover:scale-y-[0.98] transition duration-700 ease-in-out;
 			}
 		}
 		.jason-3 {
