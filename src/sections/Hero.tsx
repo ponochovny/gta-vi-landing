@@ -19,7 +19,7 @@ const Hero = () => {
 			opacity: 0,
 		})
 
-		gsap.set('entrance-message', { marginTop: '0vh' })
+		gsap.set('.entrance-message', { marginTop: '0vh' })
 
 		const tl = gsap.timeline({
 			scrollTrigger: {
@@ -61,7 +61,7 @@ const Hero = () => {
 				'.entrance-message',
 				{
 					duration: 1,
-					easy: 'power1.inOut',
+					ease: 'power1.inOut',
 					maskImage:
 						'radial-gradient(circle at 50% 0vh, black 50%, transparent 100%)',
 				},
