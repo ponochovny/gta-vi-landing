@@ -57,7 +57,7 @@ const Final = () => {
 				<video
 					ref={videoRef}
 					src='/videos/output3.mp4'
-					className='size-full object-cover'
+					className='final-vd size-full object-cover'
 					muted
 					playsInline
 					preload='auto'
