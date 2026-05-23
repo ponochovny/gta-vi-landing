@@ -40,6 +40,7 @@ const Hero = () => {
 				'.mask-wrapper',
 				{
 					maskSize,
+					maskPosition: maskPos,
 					ease: 'power1.inOut',
 				},
 				'<',
@@ -73,28 +74,28 @@ const Hero = () => {
 		<section className='hero-section'>
 			<div className='size-full mask-wrapper'>
 				<img
-					src='/images/hero-bg.webp'
+					src='./images/hero-bg.webp'
 					alt='background'
 					className='size-full scale-out'
 				/>
 				<img
-					src='/images/hero-text.webp'
+					src='./images/hero-text.webp'
 					alt='hero-logo'
 					className='size-full title-logo fade-out'
 				/>
 				<img
-					src='/images/watch-trailer.png'
+					src='./images/watch-trailer.png'
 					alt='trailer'
 					className='trailer-logo fade-out'
 				/>
 				<div className='play-img fade-out'>
-					<img src='/images/play.png' alt='play' className='w-7 ml-1' />
+					<img src='./images/play.png' alt='play' className='w-7 ml-1' />
 				</div>
 			</div>
 
 			<div>
 				<img
-					src='/images/big-hero-text.svg'
+					src='./images/big-hero-text.svg'
 					alt='logo'
 					className='size-full object-cover mask-logo'
 				/>
@@ -102,7 +103,7 @@ const Hero = () => {
 
 			<div className='fake-logo-wrapper'>
 				<img
-					src='/images/big-hero-text.svg'
+					src='./images/big-hero-text.svg'
 					alt='logo'
 					className='overlay-logo'
 				/>

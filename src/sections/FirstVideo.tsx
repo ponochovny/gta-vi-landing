@@ -47,7 +47,7 @@ const FirstVideo = () => {
 			<div className='h-dvh'>
 				<video
 					ref={videoRef}
-					src='/videos/output1.mp4'
+					src='./videos/output1.mp4'
 					className='first-vd'
 					muted
 					playsInline

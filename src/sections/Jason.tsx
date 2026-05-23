@@ -50,16 +50,16 @@ const Jason = () => {
 				</p>
 
 				<div className='jason-2'>
-					<img src='/images/jason-2.webp' alt='Jason Duval' />
+					<img src='./images/jason-2.webp' alt='Jason Duval' />
 				</div>
 			</div>
 
 			<div className='space-y-5 mt-96 img-box'>
 				<div className='jason-1'>
-					<img src='/images/jason-1.webp' alt='jason duval' />
+					<img src='./images/jason-1.webp' alt='jason duval' />
 				</div>
 				<div className='jason-3'>
-					<img src='/images/jason-3.webp' alt='jason duval' />
+					<img src='./images/jason-3.webp' alt='jason duval' />
 				</div>
 			</div>
 		</section>

@@ -40,10 +40,10 @@ const Lucia = () => {
 		<section className='lucia-life'>
 			<div className='flex flex-col gap-5 items-end img-box lg:1/2 ps-10 mt-96'>
 				<div className='lucia-1'>
-					<img src='/images/lucia-1.webp' alt='lucia duval' />
+					<img src='./images/lucia-1.webp' alt='lucia duval' />
 				</div>
 				<div className='lucia-3'>
-					<img src='/images/lucia-3.webp' alt='lucia duval' />
+					<img src='./images/lucia-3.webp' alt='lucia duval' />
 				</div>
 			</div>
 
@@ -59,7 +59,7 @@ const Lucia = () => {
 				</div>
 
 				<div className='lucia-2'>
-					<img src='/images/lucia-2.webp' alt='Lucia Duval' />
+					<img src='./images/lucia-2.webp' alt='Lucia Duval' />
 				</div>
 
 				<p className='max-w-xl lg:ps-32 ps-10'>

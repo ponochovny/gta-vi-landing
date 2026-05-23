@@ -56,7 +56,7 @@ const Final = () => {
 			<div className='final-content size-full'>
 				<video
 					ref={videoRef}
-					src='/videos/output3.mp4'
+					src='./videos/output3.mp4'
 					className='final-vd size-full object-cover'
 					muted
 					playsInline
